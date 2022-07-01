@@ -1,17 +1,21 @@
-*
-{
-    font-family: sans-serif;
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin:0;
 }
-h1
+body
 {
-    color:white;  
+    margin:0;
 }
-#product-overview
-{
-    background: #ff1b68;
+h1 {
+  color: white;
+}
+#product-overview {
+  background: #ff1b68;
+  padding: 20px;
+  height: 100%;
 }
 
-.section-title
-{
-    color: darkblue;
+.section-title {
+  color: darkblue;
 }
