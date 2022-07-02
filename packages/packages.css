@@ -1,0 +1,36 @@
+.package
+{
+    background: #d5ffdc;
+    border: 2px solid black;
+    margin:16px;
+    padding: 16px;
+
+}
+a
+{
+    text-decoration: none;
+}
+.section-title
+{
+    color: black;
+}
+.package__description
+{
+    color: gray;
+}
+.package__feature
+{
+    border: 2px solid black;
+    background-color: white;
+    padding: 16px;
+    color: black;
+}
+.package--premium
+{
+    background: #0e4f1f;
+    border: none;
+}
+.package--premium .section-title
+{
+    color: white;
+}

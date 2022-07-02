@@ -1,0 +1,102 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  #product-overview {
+    background: url("freedom.jpg");
+    padding: 20px;
+    height: 300px;
+    margin: 0;
+    color: white;
+  }
+  
+
+  .main-header {
+    background: #2ddf5c;
+    padding: 8px 16px;
+    vertical-align: middle;
+  }
+  .main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .main-nav__item {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 16px;
+    padding: 5px;
+  }
+  .main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+  }
+  .main-nav__item a:hover,
+  .main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+  }
+  
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 55px);
+    vertical-align: middle;
+  }
+  header > div {
+    display: inline-block;
+  }
+  
+  .main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .main-nav__cta a
+  {
+      background-color: #ff1b68;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+  }
+  .main-nav__cta a:hover,.main-nav__cta a:active
+  {
+      background-color: white;
+      border: none;
+      color: #ff1b68;
+  }
+  .main-footer
+{
+    background-color: black;
+}
+.main-footer ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.main-footer a
+{
+    text-decoration: none;
+    color: white;
+}
+.main-footer li
+{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 16px;
+}
+.main-footer a:hover
+{
+    color: rgb(151, 151, 151);
+}
+a
+{
+    text-decoration: none;
+}
