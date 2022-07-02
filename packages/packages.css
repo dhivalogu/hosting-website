@@ -1,10 +1,20 @@
+main
+{
+    padding-top: 30px;
+}
 .package
 {
     background: #d5ffdc;
     border: 2px solid black;
-    margin:16px;
+    margin:16px 0px;
     padding: 16px;
+    width: 70%;
 
+}
+.package:hover
+{
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-color: tomato;
 }
 a
 {
@@ -25,12 +35,25 @@ a
     padding: 16px;
     color: black;
 }
-.package--premium
+#premium
 {
     background: #0e4f1f;
-    border: none;
 }
-.package--premium .section-title
+#premium .section-title
 {
     color: white;
+}
+#free
+{
+    float: right;
+    border-right: none;
+    text-align: right;
+}
+.clearfix
+{
+    clear: both;
+}
+#plus,#premium
+{
+    border-left: none;
 }
