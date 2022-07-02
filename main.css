@@ -84,3 +84,28 @@ header > div {
     width: 30%;
     vertical-align: middle;
 }
+
+.plan--recommended
+{
+    background:#19b84c;
+    color: white;
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.4);
+}
+.plan__annotation
+{
+    background: white;
+    padding: 8px;
+    color: #0e4f1f;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.plan ul
+{
+    list-style: none;
+    padding: 0;
+}
+.plan ul li 
+{
+    margin:5px
+}
