@@ -168,3 +168,30 @@ header > div {
     height: 128px;
     margin: auto;
 }
+
+.main-footer
+{
+    background-color: black;
+}
+.main-footer ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.main-footer a
+{
+    text-decoration: none;
+    color: white;
+}
+.main-footer li
+{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 16px;
+}
+.main-footer a:hover
+{
+    color: rgb(151, 151, 151);
+}
