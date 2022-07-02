@@ -144,3 +144,27 @@ header > div {
     background-color: white;
     color: #0e4f1f;
 }
+.features ul li
+{
+    display: inline-block;
+    width: 30%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.features
+{
+    background: #ff1b68;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+}
+.feature__image
+{
+    background-color: rgb(255, 203, 203);
+    border-radius: 50%;
+    border: 2px solid #0e4f1f;
+    width: 128px;
+    height: 128px;
+    margin: auto;
+}
