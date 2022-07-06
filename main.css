@@ -88,18 +88,34 @@
   width: 80%;
   margin: auto;
   text-align: center;
+  height: 50vh;
 }
 #product-overview {
   margin-top: 20px;
-  background-image: url("freedom.jpg");
+  background-image: linear-gradient(
+      to top,
+      rgba(56, 56, 56, 0.824) 30%,
+      transparent
+    ),
+    url("freedom.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 100vh;
   padding: 20px;
   margin: 0;
   color: white;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main {
   margin-top: 20px;
 }
+
+.tag-line {
+  font-weight: bold;
+  color: white;
+  font-size: 6rem;
+}
+

@@ -61,6 +61,8 @@ a
 .background
 {
     background: url("../images/plans-background.jpg");
+    background-size: cover;
+    filter: blur(2px);
     width: 100%;
     height: 100%;
     position: fixed;
