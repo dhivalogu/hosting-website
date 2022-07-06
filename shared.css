@@ -17,9 +17,9 @@ body {
   font-weight: bold;
   display: inline-block;
   height: 35px;
+  vertical-align: middle;
 }
-.main-header__brand img
-{
+.main-header__brand img {
   height: 100%;
   width: 100%;
 }
@@ -29,14 +29,17 @@ body {
   margin: 0 16px;
   padding: 12px;
 }
-.main-nav__item a {
+.main-nav__item a,
+.mobile-nav__item a {
   text-decoration: none;
   color: #0e4f1f;
   font-weight: bold;
   padding: 3px 0;
 }
 .main-nav__item a:hover,
-.main-nav__item a:active {
+.main-nav__item a:active,
+.mobile-nav__item a:hover,
+.mobile-nav__item a:active {
   color: white;
   border-bottom: 5px solid white;
 }
@@ -44,26 +47,30 @@ body {
 .main-nav {
   display: inline-block;
   text-align: right;
-  width: calc(100% - 55px);
+  width: calc(100% - 120px);
   vertical-align: middle;
 }
 header > div {
   display: inline-block;
 }
 
-.main-nav__items {
+.main-nav__items,
+.mobile-nav__items {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.main-nav__cta a {
+.main-nav__cta a,
+.mobile-nav__item--cta a {
   background-color: #ff1b68;
   color: white;
   padding: 8px 16px;
   border-radius: 8px;
 }
 .main-nav__cta a:hover,
-.main-nav__cta a:active {
+.main-nav__cta a:active,
+.mobile-nav__item--cta a:hover,
+.mobile-nav__item--cta a:active {
   background-color: white;
   border: none;
   color: #ff1b68;
@@ -109,7 +116,7 @@ main {
   height: 100vh;
   background-color: rgba(76, 75, 75, 0.502);
   z-index: 50;
-  top:-5px;
+  top: -5px;
   display: none;
 }
 .modal {
@@ -160,4 +167,57 @@ main {
 .modal__action--negative:active {
   background: #ff5454;
   border-color: #ff5454;
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 80%;
+  height: 100vh;
+}
+
+.mobile-nav__items {
+  width: 90%;
+  height: 100%;
+  list-style: none;
+  margin: 10% auto;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-nav__item {
+  margin: 1rem 0;
+}
+
+.mobile-nav__item a {
+  font-size: 1.5rem;
+}
+.toggle-button {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button__bar {
+  width: 100%;
+  height: 0.2rem;
+  background: black;
+  display: block;
+  margin: 0.6rem 0;
+}
+.open
+{
+  display: block !important;
 }
